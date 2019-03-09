@@ -1,0 +1,16 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#gif-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gif-list .gif {
+    flex: 0 0 15%;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
